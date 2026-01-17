@@ -1,0 +1,11 @@
+flask
+flask-login
+flask-bcrypt
+pymongo
+numpy
+pandas
+scikit-learn
+nltk
+torch
+sentence-transformers
+llama-cpp-python
