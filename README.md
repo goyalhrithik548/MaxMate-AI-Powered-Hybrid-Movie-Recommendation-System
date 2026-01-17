@@ -125,41 +125,37 @@ The `models/` folder must contain `phi-2.Q4_K_M.gguf`.
 The `Artifacts/` folder must contain the `.pkl files`.
 
 🚀 Usage Guide
-Start MongoDB: Ensure your local MongoDB instance is running.
+   * Start MongoDB: Ensure your local MongoDB instance is running.
 
-Run the App:
+   * Run the App:
 
-```Bash
-python main.py
-```
+     ```Bash
+     python main.py
+     ```
 
-Wait for the "Phi-2 Brain Online" message in the terminal.
+   * Wait for the "Phi-2 Brain Online" message in the terminal.
 
-Access the Interface: Open your browser and navigate to: http://127.0.0.1:5000
+   * Access the Interface: Open your browser and navigate to: http://127.0.0.1:5000
 
 Explore:
 
-Sign Up/Login: Create a local account.
+   * Sign Up/Login: Create a local account.
 
-Home: Browse trending movies.
+   * Home: Browse trending movies.
 
-Chat: Click the chat bubble and ask: "Suggest a sci-fi movie about space travel."
+   * Chat: Click the chat bubble and ask: "Suggest a sci-fi movie about space travel."
 
-🔮 Future Scope
-Performance: Migrate inference to ONNX Runtime for 2x faster CPU speeds.
+## 🔮 Future Scope
+   * Performance: Migrate inference to ONNX Runtime for 2x faster CPU speeds.
 
-Voice Integration: Add Whisper AI for voice-to-text search.
+    * Voice Integration: Add Whisper AI for voice-to-text search.
 
-Cloud Deployment: Dockerize the application for deployment on AWS/Azure.
+   * Cloud Deployment: Dockerize the application for deployment on AWS/Azure.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Hrithik Kumar
 
-Track: Generative AI & Recommendation Systems
+   * Track: Generative AI & Recommendation System
+   * Contact: Your goyalhrithik548@gmail.com
 
-Contact: [Your Email / LinkedIn]
-
-Built with ❤️ using Python & Flask.
-├── max_llm.py                     # AI RAG Pipeline Module
-├── requirements.txt               # Python Dependencies
-└── README.md                      # Documentation
+*Built with ❤️ using Python & Flask*
