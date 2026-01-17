@@ -123,13 +123,13 @@ pip install -r requirements.txt
 
 To keep the repository light, the **AI Models (2GB+)** and **Data Artifacts** are hosted externally. The system **will not work** without these files.
 
-### 1. Download the Assets Zip
+### 1. Download all the required files and folders
 
-👉 **[PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE]** 👈
+👉 **https://drive.google.com/drive/folders/1inOxa3SfCWMRrt1AlzNYYgbp4GGUo3Fd?usp=drive_link** 👈
 
 ### 2. Extract and Place
 
-After extracting the zip file, ensure your folder looks **exactly** like the structure above.
+After downloding the file and folder, ensure your folder looks **exactly** like the structure above.
 
 * The `models/` folder must contain `phi-2.Q4_K_M.gguf`.
 * The `Artifacts/` folder must contain the `.pkl` files.
@@ -140,6 +140,7 @@ After extracting the zip file, ensure your folder looks **exactly** like the str
 
 1. **Start MongoDB:**
 Ensure your local MongoDB instance is running.
+
 2. **Run the App:**
 ```bash
 python main.py
@@ -148,9 +149,11 @@ python main.py
 
 
 *Wait for the "Phi-2 Brain Online" message in the terminal.*
+
 3. **Access the Interface:**
 Open your browser and navigate to:
 `http://127.0.0.1:5000`
+
 4. **Explore:**
 * **Sign Up/Login:** Create a local account.
 * **Home:** Browse trending movies or search your favourite movie to get recommendation and know about their cast.
