@@ -1,14 +1,3 @@
-Here is the **complete, professional, and full-length README.md** for your project. This includes every section an examiner or developer would look for: Architecture, Installation, the Google Drive integration, and Usage.
-
-**Instructions:**
-
-1. Create a file named `README.md` in your project folder.
-2. Copy the **entire code block below**.
-3. **Replace** `[PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE]` with your actual link.
-
----
-
-```markdown
 # 🎬 MaxMate: AI-Powered Hybrid Movie Recommendation System
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
